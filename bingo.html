@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Bingo!!</title>
+	<link rel='stylesheet' type='text/css' href='bingo.css' >
+</head>
+
+<body>
+
+<h1 id='title'> Bingo Time</h1>
+
+<div class='actions'>
+	<button id='makeACard'>Generate a card</button>
+	<button id='callANumber'>Call a number</button>
+</div>
+
+<p class="clear-fix"></p>
+<div id='number-area'>
+	<h2>Number's Called</h2>
+	<p id="number-pool"></p>
+</div>
+	<table id="game-board">
+		<thead>
+			<tr>
+				<td>B</td><td>I</td><td>N</td><td>G</td><td>O</td>
+			</tr>
+		</thead>
+		<tbody>
+			<tr id='row1'>
+				<td class="game-square" id='1'><span></span></td>
+				<td class="game-square" id='2'><span></span></td>
+				<td class="game-square" id='3'><span></span></td>
+				<td class="game-square" id='4'><span></span></td>
+				<td class="game-square" id='5'><span></span></td>
+			</tr>
+
+			<tr id='row2'>
+				<td class="game-square" id='6'><span></span></td>
+				<td class="game-square" id='7'><span></span></td>
+				<td class="game-square" id='8'><span></span></td>
+				<td class="game-square" id='9'><span></span></td>
+				<td class="game-square" id='10'><span></span></td>
+			</tr>
+
+			<tr id='row3'>
+				<td class="game-square" id='11'><span></span></td>
+				<td class="game-square" id='12'><span></span></td>
+				<td class="game-square" id='13'><span></span></td>
+				<td class="game-square" id='14'><span></span></td>
+				<td class="game-square" id='15'><span></span></td>
+			</tr>
+
+			<tr id='row4'>
+				<td class="game-square" id='16'><span></span></td>
+				<td class="game-square" id='17'><span></span></td>
+				<td class="game-square" id='18'><span></span></td>
+				<td class="game-square" id='19'><span></span></td>
+				<td class="game-square" id='20'><span></span></td>
+			</tr>
+
+			<tr id='row5'>
+				<td class="game-square" id='21'><span></span></td>
+				<td class="game-square" id='22'><span></span></td>
+				<td class="game-square" id='23'><span></span></td>
+				<td class="game-square" id='24'><span></span></td>
+				<td class="game-square" id='25'><span></span></td>
+			</tr>
+
+		</tbody>
+	<table>
+	<div>
+		<p id='game-status'></p>
+	</div>
+	<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+	<script src='bingo.js'></script>
+</body>
+</html>
